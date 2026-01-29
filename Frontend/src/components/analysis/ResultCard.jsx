@@ -3,7 +3,7 @@ import { ShieldAlert, ShieldCheck } from "lucide-react";
 const ResultCard = ({ result }) => {
   const isSpam = result.label === "SPAM";
   const confidence = Math.round(result.confidence * 100);
-
+console.log(confidence)
   return (
     <div
       className={`rounded-2xl p-6 w-full max-w-md border animate-in fade-in slide-in-from-bottom-4 duration-500

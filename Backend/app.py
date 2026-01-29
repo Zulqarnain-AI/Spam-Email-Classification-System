@@ -46,7 +46,7 @@ def predict():
         prediction_prob = model.predict(processed_input)[0][0]
         
         # 3. Classification Result
-        label = "SPAM" if prediction_prob > 0.5 else "HAM"
+        label = "SPAM" if prediction_prob > 0.5 else "Not Spam"
         
         return jsonify({
             "label": label,
