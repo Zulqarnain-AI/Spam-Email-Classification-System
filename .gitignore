@@ -1,0 +1,49 @@
+# --- Python / Backend ---
+# Virtual Environment [cite: 13]
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large AI Assets (Optional: If using Git LFS)
+# Note: It's best practice to keep models out of small repos
+*.keras
+*.pkl
+*.joblib
+
+# --- Node.js / Frontend ---
+# Dependencies 
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+*.log
+.env
